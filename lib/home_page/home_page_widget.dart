@@ -8,7 +8,8 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../choisirUnParking/ChoisirUnParking.dart';
-import '../choisirUnParking/ChoisirParkingPage.dart';
+import '../choisirUnParking/M.dart';
+import '../choisirUnParking/P.dart';
 import '../map.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
@@ -292,7 +293,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               onPressed: () => Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => ChoisirParkingPage()),
+                                    builder: (context) =>
+                                        ParkingsInformation()),
                               ),
                             ),
                             SizedBox(height: 10),
@@ -323,9 +325,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     FlutterFlowTheme.of(context).customColor1,
                                 size: 30,
                               ),
-                              onPressed: () {
-                                print('IconButton pressed ...');
-                              },
+                              onPressed: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => M()),
+                              ),
                             ),
                             SizedBox(height: 10),
                             Text(
@@ -355,9 +358,10 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     FlutterFlowTheme.of(context).customColor1,
                                 size: 30,
                               ),
-                              onPressed: () {
-                                print('IconButton pressed ...');
-                              },
+                              onPressed: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => P()),
+                              ),
                             ),
                             SizedBox(height: 10),
                             Text(

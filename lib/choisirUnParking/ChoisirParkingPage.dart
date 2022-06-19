@@ -63,7 +63,7 @@ class _ChoisirParkingPageState extends State<ChoisirParkingPage> {
         elevation: 0,
       ),
       backgroundColor: FlutterFlowTheme.of(context).customColor1,
-      body: ParkingsInformation(),
+      body: Text(""),
     );
   }
 }

@@ -11,7 +11,6 @@ export 'edit_profile/edit_profile_widget.dart' show EditProfileWidget;
 export 'change_password/change_password_widget.dart' show ChangePasswordWidget;
 export 'payment_complete/payment_complete_widget.dart'
     show PaymentCompleteWidget;
-export 'reservation/reservation_widget.dart' show ReservationWidget;
 export 'main/main_widget.dart' show MainWidget;
 export 'ratepark/ratepark_widget.dart' show RateparkWidget;
 export 'reclamation/reclamation_widget.dart' show ReclamationWidget;
